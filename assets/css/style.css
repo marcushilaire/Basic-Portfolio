@@ -23,9 +23,9 @@ Body {
     text-align: center;
 }
 .links{
-    float: left;
-    position: relative;
-    left: 600px;
+    float: right;
+    /* position: relative; */
+    /* left: 600px; */
     /* top: 0px; */
     padding: 10px;
     /* float: right; */
@@ -35,10 +35,14 @@ Body {
 #bio{
     /* margin-top: 100px; */
     /* clear left works here while clear right does not work on the header */
-    clear: left;
+    clear: both;
     float: left;
     width: 650px;
 }
 .content{
     margin-top: 100px;
+}
+.connect{
+    float: right;
+    /* clear: left; */
 }
