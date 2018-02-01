@@ -1,29 +1,44 @@
 Body {
-    Width:960px;
 
 }
 
+.wrapper{
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 960px;
+}
 .header{
-    /* padding: 2px; */
-    /* margin-top: 30px;  */
+    /* padding: 50px; */
+    margin-bottom: 30px; 
     /* float: left; */
-    /* clear: right; */
+    /* clear: both; */
+    /* border-width: medium; */
 }
 #name{
+    float: left;
     background-color: #4aaaa5;
-    /* padding: 15px; */
-    width: 300px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.links{
+    float: left;
+    position: relative;
+    left: 600px;
+    /* top: 0px; */
+    padding: 10px;
+    /* float: right; */
+    /* clear: both; */
+}
+
+#bio{
+    /* margin-top: 100px; */
+    /* clear left works here while clear right does not work on the header */
+    clear: left;
+    float: left;
+    width: 650px;
 }
 .content{
-    padding: 20px;
-    width: 650px;
-
-}
-
-.links{
-    /* position: relative;
-    right: 100px;
-    top: 0px; */
-    /* float: right; */
-    /* clear: right; */
+    margin-top: 100px;
 }
