@@ -41,7 +41,10 @@ h2, h3{
 .content{
     
 }
-#bio{
+.portfolio{
+    float: left;
+}
+#content{
     background-color:#ffffff;
     /* margin-top: 100px; */
     /* clear left works here while clear right does not work on the header */
