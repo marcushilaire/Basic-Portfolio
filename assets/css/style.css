@@ -1,8 +1,5 @@
 Body {
     background-image: url("../images/background.png"); 
-    /* margin-left: 200px; */
-    /* margin-right: 200px; */
-    /* width: 960px; */
 }
 
 .wrapper{
@@ -23,23 +20,15 @@ h2, h3{
     float: left;
     width: 100%;
     margin-bottom: 30px;
-    
 }
 
 #name{
     float: left;
-    /* position: relative; */
-    /* top: 0; */
-    /* right: 12px; */
-    /* margin right: 200px; */
     background-color: #4aaaa5;
     padding: 15px;
-    /* width: 50px; */
-    /* height: 30px; */
     text-align: center;
 }
 #links{
-    /* background: blue; */
     float: right;
     padding: 15px;
     /* position: relative; */
