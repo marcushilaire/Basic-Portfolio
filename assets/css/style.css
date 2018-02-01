@@ -1,4 +1,7 @@
 Body {
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+    /* width: 960px; */
 
 }
 
@@ -36,10 +39,15 @@ Body {
     /* margin-top: 100px; */
     /* clear left works here while clear right does not work on the header */
     clear: both;
+    /* float left sets the entire div to float as a unit, rather than each individual element */
     float: left;
     width: 650px;
 }
+#my-picture{
+    float: left;
+}
 .content{
+    clear: left;
     margin-top: 100px;
 }
 .connect{
