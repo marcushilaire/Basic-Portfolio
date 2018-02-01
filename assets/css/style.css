@@ -38,12 +38,8 @@ h2, h3{
     /* float: right; */
     /* clear: both; */
 }
-.content{
-    
-}
-.portfolio{
-    float: left;
-}
+
+
 #content{
     background-color:#ffffff;
     /* margin-top: 100px; */
@@ -53,19 +49,55 @@ h2, h3{
     float: left;
     width: 610px;
     padding: 20px;
-    border-color: 
+
 }
 #my-picture{
     float: left;
 }
+.portfolio1{
+    float: left;
+    padding: 5px;
+    position: relative;
+}
+.portfolio2{
+    float: left;
+    padding: 2px;
+    position: relative;
+}
+.portfolio3{
+    float: left;
+    padding: 2px;
+    position: relative;
+}
+.portfolio4{
+    float: left;
+    padding: 2px;
+    position: relative;
+    
+}
+.portfolio5{
+    float: left;
+    padding: 2px;
+    position: relative;
+}
 
+.label{
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    /* left: 2px; */
+    width: 100%;
+    height: 10%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
 .connect{
     padding: 20px;
     text-align: center;
     width: 230px;
     background: #ffffff;
     float: right;
-    /* clear: left; */
+    
 }
 
 #footer{
@@ -76,3 +108,4 @@ h2, h3{
     color: #ffffff;
     padding: 15px;
     border-top: 5px solid #4aaaa5;
+}
