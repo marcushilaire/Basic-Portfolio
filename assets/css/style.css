@@ -1,8 +1,8 @@
 Body {
+    background-image: url("../images/background.png"); 
     /* margin-left: 200px; */
     /* margin-right: 200px; */
     /* width: 960px; */
-
 }
 
 .wrapper{
@@ -10,22 +10,29 @@ Body {
     margin-right: 200px;
     width: 960px;
 }
-.header{
+#header{
+    background: blue
     /* padding: 50px; */
-    margin-bottom: 30px; 
+    /* margin-bottom: 300px;  */
     /* float: left; */
     /* clear: both; */
     /* border-width: medium; */
+}
+.content{
+    /* background-image: url("./assets/images/background.png"); */
+    /* clear: left; */
+    /* margin-top: 100px; */
 }
 #name{
     float: left;
     background-color: #4aaaa5;
     padding: 10px;
     width: 50px;
-    height: 50px;
+    height: 30px;
     text-align: center;
 }
-.links{
+#links{
+    background: blue;
     float: right;
     /* position: relative; */
     /* left: 600px; */
@@ -36,21 +43,22 @@ Body {
 }
 
 #bio{
+    background-color:blue;
     /* margin-top: 100px; */
     /* clear left works here while clear right does not work on the header */
     clear: both;
     /* float left sets the entire div to float as a unit, rather than each individual element */
     float: left;
     width: 650px;
+    border-style: dashed;
+
 }
 #my-picture{
     float: left;
 }
-.content{
-    clear: left;
-    margin-top: 100px;
-}
+
 .connect{
+    background: blue;
     float: right;
     /* clear: left; */
 }
