@@ -1,10 +1,12 @@
 Body {
     background-image: url("../images/background.png"); 
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .wrapper{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
     width: 960px;
 }
 h1{
@@ -32,11 +34,7 @@ h2, h3{
 #links{
     float: right;
     padding: 15px;
-    /* position: relative; */
-    /* left: 600px; */
-    /* top: 0px; */
-    /* float: right; */
-    /* clear: both; */
+    
 }
 
 
@@ -49,14 +47,14 @@ h2, h3{
     float: left;
     width: 610px;
     padding: 20px;
-
+  
 }
 #my-picture{
     float: left;
 }
 .portfolio1{
     float: left;
-    padding: 5px;
+    padding: 2px;
     position: relative;
 }
 .portfolio2{
@@ -85,11 +83,17 @@ h2, h3{
     text-align: center;
     position: absolute;
     bottom: 10px;
-    /* left: 2px; */
+   
     width: 100%;
     height: 10%;
     background-color: #4aaaa5;
     color: #ffffff;
+}
+.form{
+    width: 100%
+}
+#message{
+    height: 200px;
 }
 .connect{
     padding: 20px;
@@ -106,6 +110,8 @@ h2, h3{
     text-anchor: end;
     background-color: #666666;
     color: #ffffff;
-    padding: 15px;
+    height: 15px;
+
+
     border-top: 5px solid #4aaaa5;
 }
