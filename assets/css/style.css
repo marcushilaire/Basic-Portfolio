@@ -3,6 +3,9 @@ Body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+p{
+    font-size: 120%;
+}
 
 .wrapper{
     margin-left: 25%;
@@ -51,6 +54,7 @@ h2, h3{
 }
 #my-picture{
     float: left;
+    padding-right: 10px;
 }
 .portfolio1{
     float: left;
